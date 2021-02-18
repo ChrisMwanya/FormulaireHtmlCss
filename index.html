@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="trust" method="post">
+        <div id="FirstChamp">
+            <h1>General Information</h1>
+            
+            <p><select name="title" id="title" class="champPlein padding">
+                <option disabled selected>Title</option> 
+                <option value="CEO">CEO</option>            
+            </select></p>            
+                <p class="champ-inter">                                            
+                        <input class="padding" type="text" name="firstname" id="firstname" placeholder="First Name">                 
+                        
+                        <input class="padding" type="text" name="lastname" id="lastname" placeholder="Last Name">                     
+                    
+                </p>       
+
+            
+            <p><select name="position" id="position" class="champPlein padding">
+                <option disabled selected> Position</option> 
+                <option value="recteur">Recteur</option>
+            </select></p>
+
+            <p><input  type="text" name="company" id="Company" placeholder="Company" class="champPlein padding"></p>
+            <p class="padding">
+                <input type="text" name="busines" id="businessArena" placeholder="Business Arena" class="padding">
+
+                <select name="employee" id="employees" class="padding">
+                    <option disabled selected>Employees</option>
+                    <option value="stagiaire">Stagiaire</option>
+                </select>
+            </p>
+
+        </div>
+
+        <div id="secondChamp">
+            <h2>Contact Details</h2>
+
+            <p><input type="text" name="street" id="streetN" placeholder="Street + Nr " class="champPlein padding"></p>
+            <p><input type="text" name="addition" id="additionnal" placeholder="Additionnal Information" class="champPlein padding"></p>
+            <p>
+            <input type="text"  class="code padding" name="zipcode" id="zipcode" placeholder="Zip Code">            
+            <select name="number" id="place" class="Number padding">
+                <option disabled selected>Place</option>
+            </select>
+             </p>    
+            
+            <p><select name="country" id="country" class="champPlein padding">
+                <option disabled selected>Country</option>
+                <option value="RDC">RDC</option>
+                <option value="France">France</option>
+            </select>
+            </p> 
+
+            <p><input type="number" name="code" class="code padding" id="code" placeholder="Code +">
+            <input type="number" name="phonenumber" class="Number padding" id="Number" placeholder="Phone Number"></p>
+
+            <p><input type="email" name="email"  placeholder="Your Email" class="champPlein padding"></p>
+
+            <p class="padding option" id="TextRadioButton"><input type="radio" id="check1" name="radio" checked><label for="check1"> I do accept the <span><a href="">Terms and Conditions</a></span>
+                of your site. </label></p>
+
+            <button type="submit">Register Badge</button>    
+
+            </div>
+    </form>
+</body>
+</html>

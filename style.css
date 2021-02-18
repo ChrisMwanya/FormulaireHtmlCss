@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Inder';
+    src:url('Font/Inder.ttf.woff') format('woff'),
+        url('Font/Inder.ttf.svg#Inder') format('svg'),
+        url('Font/Inder.ttf.eot'),
+        url('Font/Inder.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src:url('Montserrat-Medium.ttf.woff') format('woff'),
+        url('Montserrat-Medium.ttf.svg#Montserrat-Medium') format('svg'),
+        url('Montserrat-Medium.ttf.eot'),
+        url('Montserrat-Medium.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;    
+    background: linear-gradient(/*to bottom right*/ 130deg, #7EC0ED,#9A89E5);
+    font-family: 'Inder',sans-serif;
+    height: 100vh;
+}
+
+input:focus,select:focus
+{
+    outline: none;
+}
+
+h1
+{
+    color: #668FDE;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+h2
+{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+form
+{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;      
+    height: 590px;
+    width: 1200px;
+    border-radius: 5%;
+    padding-left: 60px;
+    overflow: hidden;
+    
+}
+
+#FirstChamp
+{
+    padding-top: 30px;
+    background-color: white;
+    width: 40%;
+    padding-left: 80px;
+    font-size: 18px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+      
+    
+}
+#FirstChamp ::placeholder , select
+{
+    color:grey;
+}
+
+form input, select
+{    
+    
+    padding-top: 5px;
+    border: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid grey;
+    background: none;    
+}
+.champPlein
+{
+    width: 400px;
+}
+
+ .champ-saisi
+{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 40%;
+    height: 80%;    
+    border-bottom: 1px solid grey;
+}
+
+#firstname
+{
+    width: 180px;
+    margin-right: 10px;
+}
+
+#lastname
+{
+    
+    width: 180px;
+}
+#espace
+{
+    width: 200px;
+}
+#lastname
+{
+    width: 190px;
+}
+
+#employees
+{
+    width: 100px;
+    
+
+}
+
+#Number
+{
+    width: 290px;
+}
+
+#businessArena
+{
+    width: 250px;
+    
+}
+#businessArena
+{
+    width: 230px;
+    margin-right: 10px;
+}
+#employees
+{
+    padding-bottom: -4px;
+    width: 155px;
+}
+/*Contact Details*/
+#secondChamp
+{
+    padding-top: 20px;
+    background-color: #6700D5;
+    width: 40%;
+    color: white;
+    padding-left: 80px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    
+}
+
+#secondChamp ::placeholder ,#secondChamp select
+{
+    color: white;
+}
+
+#zipcode
+{
+    width: 80px;
+    margin-right: 20px;
+}
+
+#code
+{
+    width: 80px;
+    margin-right: 20px;
+}
+.code
+{
+    width: 100px;
+}
+.Number
+{    
+    width: 290px;
+}
+
+.padding
+{
+    padding-bottom: 10px;
+}
+a
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+#TextRadioButton
+{
+    font-size: 12px;
+}
+
+.option
+{
+    position: relative;
+}
+
+.option label
+{
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.option label::before
+{
+    content: "";
+    position: absolute;
+    left: 1%;
+    bottom: 40%;
+    width: 13px;
+    height: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 3px  rgba(0,0,0,0.8);
+
+}
+.option label::after
+{
+    content: "";
+    position: absolute;
+    left: 1.5%;
+    bottom: 52.1%;
+    width: 7px;
+    height: 7px;
+    border: 1px solid white;
+    background-color: white ;
+    border-radius: 50%;
+    box-shadow: 0 0 3px  rgba(0,0,0,0.8);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.option input
+{
+    display: none;
+}
+.option input:checked ~ label::after
+{
+    opacity: 1;
+}
+
+button
+{
+    margin-top: 40px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
