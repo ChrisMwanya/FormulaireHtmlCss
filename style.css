@@ -56,9 +56,9 @@ form
    
     display: flex;
     justify-content: center;
-    margin-top: 40px;      
+    margin-top: 0 auto;      
     height: 590px;
-    width: 1200px;
+    width: 900px;
     border-radius: 5%;
     padding-left: 60px;
     overflow: hidden;
@@ -67,10 +67,10 @@ form
 
 #FirstChamp
 {
-    padding-top: 30px;
+     
     background-color: white;
     width: 40%;
-    padding-left: 80px;
+    padding: 5%;
     font-size: 18px;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
@@ -95,7 +95,7 @@ form input, select
 }
 .champPlein
 {
-    width: 400px;
+    width: 100%;
 }
 
  .champ-saisi
@@ -110,29 +110,14 @@ form input, select
 
 #firstname
 {
-    width: 180px;
+    width: 45%;
     margin-right: 10px;
 }
 
 #lastname
 {
     
-    width: 180px;
-}
-#espace
-{
-    width: 200px;
-}
-#lastname
-{
-    width: 190px;
-}
-
-#employees
-{
-    width: 100px;
-    
-
+    width: 48%;
 }
 
 #Number
@@ -142,27 +127,23 @@ form input, select
 
 #businessArena
 {
-    width: 250px;
-    
-}
-#businessArena
-{
-    width: 230px;
+    width: 55%;
     margin-right: 10px;
 }
 #employees
 {
-    padding-bottom: -4px;
-    width: 155px;
+    
+    padding-bottom: 8.8px; 
+    width: 39.4%;
+    
 }
 /*Contact Details*/
 #secondChamp
 {
-    padding-top: 20px;
-    background-color: #6700D5;
     width: 40%;
-    color: white;
-    padding-left: 80px;
+    padding: 5%;
+    background-color: #477CD3;    
+    color: white;    
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -174,24 +155,24 @@ form input, select
     color: white;
 }
 
-#zipcode
+.zipcode
 {
-    width: 80px;
+    width: 30%;
     margin-right: 20px;
 }
 
-#code
-{
-    width: 80px;
-    margin-right: 20px;
-}
 .code
 {
-    width: 100px;
+   width: 20%;
+   margin-right: 10%;
 }
 .Number
 {    
-    width: 290px;
+     width: 62%; 
+}
+#PhoneNumber
+{
+    width: 60%;
 }
 
 .padding
@@ -239,7 +220,7 @@ a
 {
     content: "";
     position: absolute;
-    left: 1.5%;
+    left: 1.8%;
     bottom: 52.1%;
     width: 7px;
     height: 7px;
@@ -262,7 +243,7 @@ a
 
 button
 {
-    margin-top: 40px;
+    margin-top: 25px;
     background-color: white;
     width: 150px;
     height: 50px;
