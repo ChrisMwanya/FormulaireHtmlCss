@@ -232,6 +232,11 @@ a
     transition: opacity 0.4s;
 }
 
+#Company, #streetN, #additionnal, #mail
+{
+    width: 99%;
+}
+
 .option input
 {
     display: none;
