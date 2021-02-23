@@ -56,11 +56,13 @@ form
    
     display: flex;
     justify-content: center;
-    margin-top: 0 auto;      
+    
+    
+        
     height: 590px;
     width: 900px;
-    border-radius: 5%;
-    padding-left: 60px;
+    
+    
     overflow: hidden;
     
 }
