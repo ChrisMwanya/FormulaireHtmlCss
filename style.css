@@ -55,13 +55,9 @@ form
 {
    
     display: flex;
-    justify-content: center;
-    
-    
-        
+    justify-content: center;  
     height: 590px;
     width: 900px;
-    
     
     overflow: hidden;
     
@@ -144,7 +140,7 @@ form input, select
 {
     width: 40%;
     padding: 5%;
-    background-color: #477CD3;    
+    background-color: #6700D5;    
     color: white;    
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
